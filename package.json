@@ -14,5 +14,11 @@
     "email": "shogo.sensui@gmail.com",
     "url": "https://github.com/1000ch"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.5.0"
+  },
+  "scripts": {
+    "test": "node-sass grd.scss -o grd.css"
+  }
 }
