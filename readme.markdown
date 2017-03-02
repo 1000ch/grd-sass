@@ -1,6 +1,6 @@
-# grd-sass
+# [grd](https://github.com/1000ch/grd)-sass
 
-Sass port of 1000ch/grd that is a CSS grid framework using Flexbox.
+Sass port of [1000ch/grd](https://github.com/1000ch/grd) that is a CSS grid framework using Flexbox.
 
 ## Install
 
