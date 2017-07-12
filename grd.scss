@@ -27,10 +27,6 @@ $total-columns: 12 !default;
 
 @for $index from 1 through $total-columns {
   .Cell.\-#{$index}of#{$total-columns} {
-    @if ($index != $total-columns) {
-      width: calc(100% * #{$index} / #{$total-columns});
-    } @else {
-      width: 100%;
-    }
+    width: percentage($index / $total-columns);
   }
 }
