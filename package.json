@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.5.0"
+    "node-sass": "^5.0.0"
   },
   "scripts": {
     "test": "node-sass grd.scss -o grd.css"
