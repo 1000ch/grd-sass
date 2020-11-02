@@ -8,10 +8,10 @@
     "grid",
     "flexbox"
   ],
-  "repository": "1000ch/grd-sass",
+  "repository": "https://github.com/1000ch/grd-sass",
   "author": {
     "name": "Shogo Sensui",
-    "email": "shogo.sensui@gmail.com",
+    "email": "shogosensui@gmail.com",
     "url": "https://github.com/1000ch"
   },
   "license": "MIT",
