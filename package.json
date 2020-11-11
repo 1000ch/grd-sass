@@ -16,9 +16,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "sass grd.scss"
+    "test": "ava"
   },
   "devDependencies": {
+    "ava": "^3.13.0",
     "sass": "^1.29.0"
   }
 }
