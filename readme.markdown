@@ -5,11 +5,7 @@ Sass port of [1000ch/grd](https://github.com/1000ch/grd) that is a CSS grid fram
 ## Install
 
 ```bash
-# via npm
-$ npm install grd-sass
-
-# via bower
-$ bower install grd-sass
+npm install grd-sass
 ```
 
 ## Usage
