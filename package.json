@@ -1,6 +1,6 @@
 {
   "name": "grd-sass",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Sass port of 1000ch/grd that is a CSS grid framework using Flexbox.",
   "keywords": [
     "css",
