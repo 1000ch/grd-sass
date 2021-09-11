@@ -1,3 +1,5 @@
+@use "sass:math";
+
 $total-columns: 12 !default;
 
 @mixin grid {
@@ -27,6 +29,6 @@ $total-columns: 12 !default;
 
 @for $index from 1 through $total-columns {
   .Cell.\-#{$index}of#{$total-columns} {
-    width: percentage($index / $total-columns);
+    width: percentage(math.div($index, $total-columns));
   }
 }
