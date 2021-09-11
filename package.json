@@ -9,12 +9,13 @@
     "flexbox"
   ],
   "repository": "https://github.com/1000ch/grd-sass",
+  "license": "MIT",
   "author": {
     "name": "Shogo Sensui",
     "email": "shogosensui@gmail.com",
     "url": "https://github.com/1000ch"
   },
-  "license": "MIT",
+  "type": "module",
   "scripts": {
     "test": "ava",
     "build": "sass grd.scss"
