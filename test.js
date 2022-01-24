@@ -1,16 +1,11 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import {fileURLToPath} from 'node:url';
+import fs from 'node:fs/promises';
 import test from 'ava';
 import sass from 'sass';
 
-test.cb('can be compiled', t => {
-  const file = fileURLToPath(new URL('grd.scss', import.meta.url));
-  const data = fs.readFileSync(file, {encoding: 'utf-8'});
+test('Sass file can be compiled', async t => {
+  const url = new URL('grd.scss', import.meta.url);
+  const data = await fs.readFile(url, {encoding: 'utf-8'});
 
-  sass.render({data}, (error, result) => {
-    t.falsy(error);
-    t.truthy(result?.css);
-    t.end();
-  });
+  const result = sass.compileString(data);
+  t.truthy(result.css);
 });

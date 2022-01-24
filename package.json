@@ -2,12 +2,6 @@
   "name": "grd-sass",
   "version": "0.1.0",
   "description": "Sass port of 1000ch/grd that is a CSS grid framework using Flexbox.",
-  "keywords": [
-    "css",
-    "sass",
-    "grid",
-    "flexbox"
-  ],
   "repository": "https://github.com/1000ch/grd-sass",
   "license": "MIT",
   "author": {
@@ -17,11 +11,21 @@
   },
   "type": "module",
   "scripts": {
-    "test": "ava",
+    "test": "xo && ava",
     "build": "sass grd.scss"
   },
+  "keywords": [
+    "css",
+    "sass",
+    "grid",
+    "flexbox"
+  ],
+  "xo": {
+    "space": 2
+  },
   "devDependencies": {
-    "ava": "^3.13.0",
-    "sass": "^1.39.2"
+    "ava": "^4.0.0",
+    "sass": "^1.48.0",
+    "xo": "^0.47.0"
   }
 }
