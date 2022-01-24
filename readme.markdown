@@ -1,4 +1,4 @@
-# [grd](https://github.com/1000ch/grd)-sass ![GitHub Actions Status](https://github.com/1000ch/grd-sass/workflows/test/badge.svg?branch=master)
+# [grd](https://github.com/1000ch/grd)-sass ![GitHub Actions Status](https://github.com/1000ch/grd-sass/workflows/test/badge.svg?branch=main)
 
 Sass port of [1000ch/grd](https://github.com/1000ch/grd) that is a CSS grid framework using Flexbox.
 
