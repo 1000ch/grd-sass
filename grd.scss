@@ -13,6 +13,8 @@ $total-columns: 12 !default;
 }
 
 .Grid            { @include grid; }
+.Grid.\-column   { flex-direction: column; }
+.Grid.\-reverse  { direction: rtl; }
 .Grid.\-top      { align-items: flex-start; }
 .Grid.\-middle   { align-items: center; }
 .Grid.\-bottom   { align-items: flex-end; }
